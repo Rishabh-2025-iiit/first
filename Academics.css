@@ -1,0 +1,48 @@
+body {
+    background-color: burlywood;
+}
+header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 100px;
+    text-decoration: underline;
+    color: brown;
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* center all boxes horizontally */
+    flex-wrap: wrap;         /* allow wrapping on smaller screens */
+    gap: 20px;               /* space between boxes */
+    margin-top: 50px;
+}
+
+.courses, .skills, .projects, .achievements, .Gpia, .internships, .social {
+    display: flex;
+    flex-direction: column;  /* stack heading + content vertically */
+    justify-content: center; /* center vertically inside box */
+    align-items: center;     /* center horizontally */
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: rgb(44, 34, 241);
+    color: aliceblue;   
+    width: 400px;
+    height: 300px;
+}
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 100px;
+    text-decoration: underline;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: auto;
+    color: brown;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
